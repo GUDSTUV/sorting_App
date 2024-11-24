@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+.main{
+    display: grid;
+    font-family: gilroy;
+    background-color: whitesmoke;
+    
+}
+
+.main h1{
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    padding: 2rem;
+}
+.texdisplay{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: whitesmoke;
+    margin: 8rem 2rem;
+    text-align: center;
+    gap: 2rem;
+
+}
+
+#unsorted-list, #sorted-list{
+    border: 2px solid orangered;
+    padding: 2rem 10rem;
+    margin: 1rem;
+    
+}
+
+.unsorted-list, .sorted-list{
+    border: 2px solid orangered;
+    padding: 2rem ;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px ;
+
+}
+
+li{
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+h2{
+    background-color: orangered;
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem;
+}
+
+button{
+    padding: 0.2rem 0.8rem;
+    color: whitesmoke;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+}
+
+button:hover {
+
+    background-color: rgb(255, 30, 0);
+
+}
+
+footer{
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    padding: 0.8rem;
+}
+
+@media (max-width: 768px) {
+.texdisplay {
+        display: block;
+        margin: 1rem;
+    }
+
+    .sorted-list {
+           margin-top: 1rem;
+        }
+}
